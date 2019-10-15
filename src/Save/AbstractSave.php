@@ -1,9 +1,9 @@
 <?php
 
-namespace Pion\Laravel\ChunkUpload\Save;
+namespace SamuelNitsche\LaravelChunkUpload\Save;
 
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Handler\AbstractHandler;
+use SamuelNitsche\LaravelChunkUpload\Config\AbstractConfig;
+use SamuelNitsche\LaravelChunkUpload\Handler\AbstractHandler;
 use Symfony\Component\HttpFoundation\File\File;
 use Illuminate\Http\UploadedFile;
 

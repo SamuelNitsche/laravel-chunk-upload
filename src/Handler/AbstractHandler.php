@@ -1,12 +1,12 @@
 <?php
 
-namespace Pion\Laravel\ChunkUpload\Handler;
+namespace SamuelNitsche\LaravelChunkUpload\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Save\AbstractSave;
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use SamuelNitsche\LaravelChunkUpload\Config\AbstractConfig;
+use SamuelNitsche\LaravelChunkUpload\Save\AbstractSave;
+use SamuelNitsche\LaravelChunkUpload\Storage\ChunkStorage;
 use Session;
 
 /**

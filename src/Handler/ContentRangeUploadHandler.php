@@ -1,14 +1,14 @@
 <?php
 
-namespace Pion\Laravel\ChunkUpload\Handler;
+namespace SamuelNitsche\LaravelChunkUpload\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use Pion\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
-use Pion\Laravel\ChunkUpload\Save\ChunkSave;
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Exceptions\ContentRangeValueToLargeException;
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use SamuelNitsche\LaravelChunkUpload\Exceptions\ChunkSaveException;
+use SamuelNitsche\LaravelChunkUpload\Save\ChunkSave;
+use SamuelNitsche\LaravelChunkUpload\Config\AbstractConfig;
+use SamuelNitsche\LaravelChunkUpload\Exceptions\ContentRangeValueToLargeException;
+use SamuelNitsche\LaravelChunkUpload\Storage\ChunkStorage;
 
 /**
  * Class ContentRangeUploadHandler.

@@ -1,11 +1,11 @@
 <?php
 
-namespace Pion\Laravel\ChunkUpload\Commands;
+namespace SamuelNitsche\LaravelChunkUpload\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
-use Pion\Laravel\ChunkUpload\ChunkFile;
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use SamuelNitsche\LaravelChunkUpload\ChunkFile;
+use SamuelNitsche\LaravelChunkUpload\Storage\ChunkStorage;
 use Symfony\Component\Console\Output\OutputInterface;
 
 class ClearChunksCommand extends Command

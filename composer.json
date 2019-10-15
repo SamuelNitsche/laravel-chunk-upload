@@ -1,11 +1,11 @@
 {
-  "name": "pion/laravel-chunk-upload",
+  "name": "samuelnitsche/laravel-chunk-upload",
   "description": "Service for chunked upload with several js providers",
   "license": "MIT",
   "authors": [
     {
-      "name": "Martin Kluska",
-      "email": "martin@kluska.cz"
+      "name": "Samuel Nitsche",
+      "email": "mail@samynitsche.de"
     }
   ],
   "scripts": {
@@ -29,7 +29,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Pion\\Laravel\\ChunkUpload\\": "src/"
+      "SamuelNitsche\\LaravelChunkUpload\\": "src/"
     }
   },
   "autoload-dev": {
@@ -40,7 +40,7 @@
   "extra":{
      "laravel":{
         "providers":[
-           "Pion\\Laravel\\ChunkUpload\\Providers\\ChunkUploadServiceProvider"
+           "SamuelNitsche\\LaravelChunkUpload\\Providers\\ChunkUploadServiceProvider"
         ]
      }
   },

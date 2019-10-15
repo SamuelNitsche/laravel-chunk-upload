@@ -5,8 +5,8 @@ namespace ChunkTests\Handler;
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
 use PHPUnit\Framework\TestCase;
-use Pion\Laravel\ChunkUpload\Config\FileConfig;
-use Pion\Laravel\ChunkUpload\Handler\DropZoneUploadHandler;
+use SamuelNitsche\LaravelChunkUpload\Config\FileConfig;
+use SamuelNitsche\LaravelChunkUpload\Handler\DropZoneUploadHandler;
 
 class DropZoneUploadHandlerTest extends TestCase
 {

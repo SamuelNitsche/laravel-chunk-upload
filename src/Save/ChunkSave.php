@@ -1,13 +1,13 @@
 <?php
 
-namespace Pion\Laravel\ChunkUpload\Save;
+namespace SamuelNitsche\LaravelChunkUpload\Save;
 
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
-use Pion\Laravel\ChunkUpload\FileMerger;
-use Pion\Laravel\ChunkUpload\Handler\AbstractHandler;
+use SamuelNitsche\LaravelChunkUpload\Config\AbstractConfig;
+use SamuelNitsche\LaravelChunkUpload\Exceptions\ChunkSaveException;
+use SamuelNitsche\LaravelChunkUpload\FileMerger;
+use SamuelNitsche\LaravelChunkUpload\Handler\AbstractHandler;
 use Illuminate\Http\UploadedFile;
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use SamuelNitsche\LaravelChunkUpload\Storage\ChunkStorage;
 
 class ChunkSave extends AbstractSave
 {

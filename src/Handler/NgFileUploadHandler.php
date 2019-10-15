@@ -1,8 +1,8 @@
 <?php
 
-namespace Pion\Laravel\ChunkUpload\Handler;
+namespace SamuelNitsche\LaravelChunkUpload\Handler;
 
-use Pion\Laravel\ChunkUpload\Exceptions\ChunkInvalidValueException;
+use SamuelNitsche\LaravelChunkUpload\Exceptions\ChunkInvalidValueException;
 use Illuminate\Http\Request;
 
 /**
