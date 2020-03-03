@@ -10,7 +10,7 @@
 
 **This package is heavily based on [pionl/laravel-chunk-upload](https://github.com/pionl/laravel-chunk-upload)!**
 
-Easy to use service/library for chunked upload with supporting multiple JS libraries on top of Laravel's file upload with low memory footprint in mind. Currently supports **Laravel 5+ (with 5.5 Auto discovery)** with features as cross domains requests, automatic clean schedule and easy usage.
+Easy to use service/library for chunked upload with supporting multiple JS libraries on top of Laravel's file upload with low memory footprint in mind. Currently supports **Laravel 6+** with features as cross domains requests, automatic clean schedule and easy usage.
 
 
 ## Installation
@@ -20,19 +20,6 @@ Easy to use service/library for chunked upload with supporting multiple JS libra
 ```
 composer require samuelnitsche/laravel-chunk-upload
 ```
-    
-**2. Add the service provider (Laravel 5.4 and below - supports Auto discovery)**
-
-```php
-\SamuelNitsche\LaravelChunkUpload\Providers\ChunkUploadServiceProvider::class
-```    
-
-**3. Publish the config (Laravel 5.2 and above, optional)**
-
-```
-php artisan vendor:publish --provider="SamuelNitsche\LaravelChunkUpload\Providers\ChunkUploadServiceProvider"
-```
-
 
 ## Usage
 
@@ -70,4 +57,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute changes. All contri
 was written by [Martin Kluska](http://kluska.cz) and is released under the 
 [MIT License](LICENSE.md).
 
-Copyright (c) 2016-2018 Martin Kluska
+Copyright (c) 2016-2020 Martin Kluska, Samuel Nitsche
