@@ -21,8 +21,8 @@
     "illuminate/filesystem": "^6.0|^7.0"
   },
   "require-dev": {
-    "laravel/laravel": "5.1 - 5.8|^6.0",
-    "phpunit/phpunit": "5.7 || 6.0 || 7.0 || 7.5 || 8.5",
+    "laravel/laravel": "^6.0",
+    "phpunit/phpunit": "8.5",
     "mockery/mockery": "^1.1.0",
     "friendsofphp/php-cs-fixer": "^2.12",
     "overtrue/phplint": "^1.1"
